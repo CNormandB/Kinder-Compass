@@ -3,7 +3,18 @@ import "./Login.css";
 
 function Login() {
   return(
-    <p>Login</p>
+    <section className="LoginPage">
+      <div className="Logo">
+        <img src="Logo.png" className="LogoImg"/>
+        <h1 className="LogoName">Kinder Compass</h1>
+        </div>
+      <form className="LoginForm">
+        <p>Login</p>
+        <input placeholder="Email"></input>
+        <input placeholder="Password"></input>
+        <button> Login </button>
+      </form>
+    </section>
   );
 }
 
