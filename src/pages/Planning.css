@@ -1,0 +1,84 @@
+.new_plan{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #B7B7A4;
+}
+
+.new_plan_form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80%;
+  width: 90%;
+}
+
+.new_plan_form h1{
+  display: flex;
+  width:100%;
+  font-size: 4em;
+  padding-left: 15%;
+}
+
+.plan_dropdowns{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 95%;
+  margin-bottom: 2%;
+}
+
+.plan_dropdowns p{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.interest{
+  width: 20vw;
+  padding: 1em;
+  margin-right: 1em;
+}
+
+.aspects_of_development{
+  width: 20vw;
+  padding: 1em;
+}
+
+.planning_input{
+  width: 95%;
+  padding: 0.5%;
+  margin-bottom: 4%;
+}
+
+.planning_input p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42%;
+}
+
+.planning_input textarea{
+  width:65%;
+  height: 35%;
+}
+
+.description p{
+  width: 40%;
+}
+
+.add_plan{
+  display: flex;
+  justify-content:flex-end;
+  width: 55%;
+}
+
+.new_plan_form input{
+  max-width: 10em;
+  padding: .5em;
+  padding-right: 1em;
+  padding-left: 1em;
+  background-color: #6B705C;
+}
