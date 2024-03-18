@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import "./Planning.css";
+import Header from "../components/Header";
 import ELECTSelection from "../components/ELECTSelection"
 import InterestSelection from "../components/InterestSelection";
 
 function Planning() {
   return(
+    <div>
+      <Header/>
       <section className="new_plan">
         <form method="post" action="/create" className="new_plan_form">
         <h1>New Activity</h1>
@@ -33,6 +36,7 @@ function Planning() {
           </div>
         </form>
       </section>
+    </div>
   );
 }
 
