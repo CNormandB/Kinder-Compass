@@ -1,15 +1,13 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';
-import AppRouter from './AppRouter';
 import './App.css';
+import AppRouter from './AppRouter'; // Assuming AppRouter is the main component of your app
 
-
-const root = createRoot(document.getElementById('root'));
-
-root.render(
-  <React.StrictMode>
-    <AppRouter />
-  </React.StrictMode>
-);
+function App() {
+  return (
+    <div className="App">
+      <AppRouter />
+    </div>
+  );
+}
 
 export default App;
