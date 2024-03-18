@@ -1,0 +1,25 @@
+.header_container{
+  height: 12vh;
+  background-color:#6B705C;
+}
+.header_logo{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  height: 100%;
+  width: 30%;
+}
+.header_logo img{
+  height: 9vh;
+  width: auto;
+  padding-top: 2%;
+  padding-right: 1%;
+}
+
+.header_logo h1{
+  display: flex;
+  justify-content: flex-start;
+  align-self:center;
+  width: 100%;
+  font-size: Xxx-large;
+}
