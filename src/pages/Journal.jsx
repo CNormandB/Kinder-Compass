@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Log.css";
+import "./Journal.css";
 
 function Log() {
   return(
