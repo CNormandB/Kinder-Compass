@@ -4,8 +4,8 @@ function Header(){
 return(
   <section className="header_container">
     <div className="header_logo">
-      <img src="Logo.png"/>
-      <h1>KINDER COMPASS</h1>
+      <img className="logo_img" src="Logo.png"/>
+      <img className="logo_txt" src="logo_text.png"/>
     </div>
     <div className="header_buttons">
       <button>Staff Space</button>

@@ -15,19 +15,19 @@
   width: 30%;
   padding-left: .5%;
 }
-.header_logo img{
+.logo_img{
   height: 9vh;
   width: auto;
   padding-top: 2%;
   padding-right: 2%;
 }
 
-.header_logo h1{
+.logo_txt{
   display: flex;
   justify-content: flex-start;
   align-self:center;
   width: 100%;
-  font-size: xxx-large;
+  height: 40%;
 }
 
 .header_buttons{
