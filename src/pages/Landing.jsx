@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 import "./Landing.css";
+import Header from "../components/Header";
+import PostedActivity from "../components/PostedActivity";
 
 function Landing() {
   return(
-    <p>Landing</p>
+    <section>
+      <Header/>
+      <PostedActivity/>
+    </section>
   );
 }
 
