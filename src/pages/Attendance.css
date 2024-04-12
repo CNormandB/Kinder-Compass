@@ -1,0 +1,116 @@
+.list_header{
+  display: flex;
+  flex-direction: row  ;
+}
+
+.page_title{
+  font-size: xxx-large;
+  padding-left: 3%;
+
+}
+
+.class_list_info{
+  display: flex;
+  flex-direction: row; 
+  align-self: center;
+  padding-top: 1%;
+  padding-left: 1%;
+  width: 30%;
+}
+.divider{
+  padding-right: 1%;
+  padding-left: 1%;
+}
+.table{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding-left: 5%;
+}
+
+.table_titles{
+  display: flex;
+  flex-direction: row;
+  background-color: #6B705C;
+  border:1px solid #3C1309;
+  width: 100%;
+}
+
+.title_scheduled{
+  display: flex;
+  justify-content: center;
+  width: 11%;
+}
+.title_present{
+  display: flex;
+  justify-content: center;
+  width: 11%;
+}
+.title_child{
+  display: flex;
+  width: 28%;
+}
+
+.title_medical{
+  display: flex;
+  justify-content: center;
+  width: 10%;
+}
+
+.title_blank{
+  display: flex;
+  width: 40%;
+}
+
+.table_data{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: 1px solid #3C1309;
+  border-top: 0em;
+}
+
+.data_scheduled{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 11.5%;
+}
+.data_present{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 11%;
+}
+.data_child{
+  display: flex;
+  align-items: center;
+  width: 28%;
+}
+
+.child_img{
+  display: flex;
+  align-items: center;
+  height: 2.5em;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.data_medical{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 10%;
+}
+.data_buttons{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 40%;
+  padding-right: 1em;
+}
+
+button{
+  border: none;
+  background-color: #FFFFFF;
+}
